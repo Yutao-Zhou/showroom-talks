@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/showroom-talks/static/css/main.dd318d6a.chunk.css",
+    "main.js": "/showroom-talks/static/js/main.606ca9ff.chunk.js",
+    "main.js.map": "/showroom-talks/static/js/main.606ca9ff.chunk.js.map",
+    "runtime-main.js": "/showroom-talks/static/js/runtime-main.99ac025c.js",
+    "runtime-main.js.map": "/showroom-talks/static/js/runtime-main.99ac025c.js.map",
+    "static/css/2.3f4f504a.chunk.css": "/showroom-talks/static/css/2.3f4f504a.chunk.css",
+    "static/js/2.b097ac33.chunk.js": "/showroom-talks/static/js/2.b097ac33.chunk.js",
+    "static/js/2.b097ac33.chunk.js.map": "/showroom-talks/static/js/2.b097ac33.chunk.js.map",
+    "static/js/3.89d07189.chunk.js": "/showroom-talks/static/js/3.89d07189.chunk.js",
+    "static/js/3.89d07189.chunk.js.map": "/showroom-talks/static/js/3.89d07189.chunk.js.map",
+    "index.html": "/showroom-talks/index.html",
+    "precache-manifest.b252efe45e88a691f62358c7ac7fe105.js": "/showroom-talks/precache-manifest.b252efe45e88a691f62358c7ac7fe105.js",
+    "service-worker.js": "/showroom-talks/service-worker.js",
+    "static/css/2.3f4f504a.chunk.css.map": "/showroom-talks/static/css/2.3f4f504a.chunk.css.map",
+    "static/css/main.dd318d6a.chunk.css.map": "/showroom-talks/static/css/main.dd318d6a.chunk.css.map",
+    "static/js/2.b097ac33.chunk.js.LICENSE.txt": "/showroom-talks/static/js/2.b097ac33.chunk.js.LICENSE.txt",
+    "static/media/all.css": "/showroom-talks/static/media/fa-v4compatibility.c9e50cca.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99ac025c.js",
+    "static/css/2.3f4f504a.chunk.css",
+    "static/js/2.b097ac33.chunk.js",
+    "static/css/main.dd318d6a.chunk.css",
+    "static/js/main.606ca9ff.chunk.js"
+  ]
+}
