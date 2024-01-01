@@ -1,0 +1,11 @@
+.blog-post {
+    padding: 20px;
+}
+
+.blog-post h2 {
+    margin-bottom: 15px;
+}
+
+.blog-post p {
+    line-height: 1.6;
+}

@@ -1,0 +1,23 @@
+.post-summary {
+    width: 26vw;
+    height: 38vh;
+    border: 1px solid #00bbff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.post-summary-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.post-summary-date {
+    font-style: italic;
+    color: #888;
+    margin-bottom: 15px;
+}
+
+.post-summary-content {
+    line-height: 1.6;
+}
