@@ -1,7 +1,7 @@
 {
   "name": "showroom-talks",
   "version": "0.1.0",
-  "homepage": "https://yutao-zhou.github.io/showroom-talks/",
+  "homepage": "https://yutao-zhou.github.io/showroom-talks",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.1",
