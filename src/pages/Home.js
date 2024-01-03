@@ -4,13 +4,16 @@ import './Home.css';
 
 function Home() {
     const posts = [
-        { id: 1, title: 'Post 1', date: 'January 1, 2023', content: 'Content of post 1' },
-        { id: 2, title: 'Post 2', date: 'February 15, 2023', content: 'Content of post 2' },
-        { id: 3, title: 'Post 3', date: 'March 30, 2023', content: 'Content of post 3' },
-        { id: 4, title: 'Post 3', date: 'March 30, 2023', content: 'Content of post 3' },
-        { id: 3, title: 'Post 3', date: 'March 30, 2023', content: 'Content of post 3' },
-        { id: 3, title: 'Post 3', date: 'March 30, 2023', content: 'Content of post 3' },
-        { id: 3, title: 'Post 3', date: 'March 30, 2023', content: 'Content of post 3' },
+        { id: 1, title: 'Tesla Model 3', date: 'January 2, 2024', content: 'The Tesla Model 3 offered impressive acceleration and range but had issues with heavy steering, higher noise levels, and handling, making it a compelling choice for new electric car owners despite challenges for traditional car drivers.' },
+        { id: 2, title: 'BMW 550i', date: 'January 1, 2024', content: '' },
+        { id: 3, title: 'Jeep Wrangler', date: 'January 1, 2024', content: '' },
+        { id: 4, title: 'KIA Soul', date: 'January 1, 2024', content: '' },
+        { id: 5, title: 'Toyota Camry', date: 'January 1, 2024', content: '' },
+        { id: 6, title: 'Toyota Corolla', date: 'January 1, 2024', content: '' },
+        { id: 7, title: 'Toyota Highlander', date: 'January 1, 2024', content: '' },
+        { id: 8, title: 'Audi A6', date: 'January 1, 2024', content: '' },
+        { id: 9, title: 'Mercedes-Benz E-Class', date: 'January 1, 2024', content: '' },
+        { id: 10, title: 'Volkswagen Jetta', date: 'January 1, 2024', content: '' },
     ];
 
     return (
