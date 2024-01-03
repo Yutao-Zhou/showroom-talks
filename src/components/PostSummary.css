@@ -1,6 +1,6 @@
 .post-summary {
     width: 26vw;
-    height: 38vh;
+    height: 45vh;
     border: 1px solid #00bbff;
     border-radius: 5px;
     padding: 20px;
@@ -20,4 +20,9 @@
 
 .post-summary-content {
     line-height: 1.6;
+    text-align: justify;
+}
+
+.post-link {
+    padding: 20px;
 }

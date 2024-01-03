@@ -5,6 +5,9 @@ import "./Header.css";
 function Header() {
     return (
         <header>
+            <div className="logo">
+                <h1>ShowroomTalk</h1>
+            </div>
             <nav>
                 <ul>
                     <li><Link to="/">Home</Link></li>

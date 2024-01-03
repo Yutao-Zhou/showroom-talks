@@ -7,8 +7,7 @@ const PostSummary = ({ id, title, date, content }) => {
         <div className="post-summary">
             <h2 className="post-summary-title">{title}</h2>
             <p className="post-summary-date">Published on: {date}</p>
-            <p className="post-summary-content">{content}</p>
-            <Link to={`/post/${id}`}>Learn more</Link>
+            <p className="post-summary-content">{content}<Link className="post-link" to={`/post/${id}`}>Learn more</Link></p>
         </div>
     );
 };
