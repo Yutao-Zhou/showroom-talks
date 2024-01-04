@@ -1,10 +1,12 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import NotFound from '../components/NotFound';
+import BackToTopButton from '../components/BackToTopButton';
 import './Post.css';
 
 const Post = () => {
     const { id } = useParams();
+    const navigate = useNavigate();
     const post = [
         { id: 1, title: 'Tesla Model 3', date: '01-02-2024', images: 'tesla-model3.jpg', content: 'Driving the Model 3 in Miami marked my second experience with a Tesla. Renting it for a week unveiled its unique performance. Initially, the Model 3 defied my expectations of conventional cars. It\'s both responsive and weighty, offering a sporty vibe that\'s intentionally tuned.\n' +
             'One standout feature is the instant responsiveness of the acceleration pedal, a hallmark trait of electric motors. Unlike gasoline cars, which vary torque and power output across different RPMs, the Tesla\'s pedal delivers a consistently linear acceleration across all drive modes. This streamlined responsiveness eliminates the need for nuanced adjustments, simplifying the driving experience significantly. As someone who meticulously controls acceleration and braking, the Model 3\'s seamlessness spared me the effort of fine-tuning gas pedal inputs or countering engine delays found in traditional cars.\n' +
@@ -20,19 +22,23 @@ const Post = () => {
                 'The weighty and precise steering heightens the driving experience, inciting excitement behind the wheel. The firm and responsive chassis unify the front and rear of the vehicle during sharp maneuvers, displaying tight control over both inputs and road conditions. Notably tuned for high-speed cruising on the Autobahn, it reacts firmly to road irregularities, occasionally bouncing occupants, depending on speed. At lower speeds, its bulkiness is perceptible, but overall, it\'s a well-balanced chassis offering occasional moments of spirited driving.\n' +
                 'In summary, this car proves itself as an excellent daily driver, excelling even at high speeds. The serene cabin ambiance coupled with spacious and comfortable seating amplifies its allure. A reliable powertrain, coupled with the quintessential experience of a classic German C-class sedan, solidifies its place as a commendable choice in its class.\n' }
     ];
+
+    const goToLastPost = () => {
+        if (id > 1 && id <= post.length) {
+            navigate(`/post/${parseInt(id) - 1}`);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    };
+
+    const goToNextPost = () => {
+        if (id >= 1 && id < post.length) {
+            navigate(`/post/${parseInt(id) + 1}`);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    };
+
     if (id > post.length) {
         return <NotFound />;
-    } else if ( post[id - 1].id == id ) {
-        console.log(typeof post[id - 1].images);
-        console.log(typeof '../assets/images/tesla-model3.jpg');
-        return (
-            <div className="blog-post">
-                <h1 className="post-title">{post[id - 1].title}</h1>
-                <p className="post-date">Published on: {post[id - 1].date}</p>
-                <img className="post-image" src={require(`../assets/images/${post[id - 1].images}`)} alt={post[id - 1].title}/>
-                <div className="post-content">{post[id - 1].content}</div>
-            </div>
-        );
     } else {
         for (let i = 0; i < post.length; i++) {
         if ( post[i].id == id ) {
@@ -42,6 +48,13 @@ const Post = () => {
                     <p className="post-date">Published on: {post[i].date}</p>
                     <img className="post-image" src={require(`../assets/images/${post[i].images}`)} alt={post[id - 1].title}/>
                     <div className="post-content">{post[i].content}</div>
+                    {id > 1 && (
+                        <button onClick={goToLastPost}>Previous Post</button>
+                    )}
+                    {id < post.length && (
+                        <button onClick={goToNextPost}>Next Post</button>
+                    )}
+                    <BackToTopButton />
                 </div>
             );
         }
