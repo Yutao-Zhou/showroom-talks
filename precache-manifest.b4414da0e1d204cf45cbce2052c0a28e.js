@@ -1,39 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2625a6d8d88e9e88abadefb61e82d007",
+    "revision": "4b66b75c13901cfbe60e0d03d87037e9",
     "url": "/showroom-talks/index.html"
   },
   {
-    "revision": "7c5f5eb4ff635327b185",
+    "revision": "69345e0053f785580b50",
     "url": "/showroom-talks/static/css/2.3f4f504a.chunk.css"
   },
   {
-    "revision": "84f65faa80b2f0ba69d1",
-    "url": "/showroom-talks/static/css/main.2d3d4499.chunk.css"
+    "revision": "2463adcfbeeedd187193",
+    "url": "/showroom-talks/static/css/main.502741bc.chunk.css"
   },
   {
-    "revision": "7c5f5eb4ff635327b185",
-    "url": "/showroom-talks/static/js/2.07c085ca.chunk.js"
+    "revision": "69345e0053f785580b50",
+    "url": "/showroom-talks/static/js/2.6aede975.chunk.js"
   },
   {
     "revision": "c7df833156a1790b4f9c0891a7e831c3",
-    "url": "/showroom-talks/static/js/2.07c085ca.chunk.js.LICENSE.txt"
+    "url": "/showroom-talks/static/js/2.6aede975.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4859fdb0638b781b8d47",
-    "url": "/showroom-talks/static/js/3.a5fd22f5.chunk.js"
+    "revision": "5b4d2452ee042d0ec78a",
+    "url": "/showroom-talks/static/js/3.3a5846f4.chunk.js"
   },
   {
-    "revision": "84f65faa80b2f0ba69d1",
-    "url": "/showroom-talks/static/js/main.ccaa8ee7.chunk.js"
+    "revision": "2463adcfbeeedd187193",
+    "url": "/showroom-talks/static/js/main.43812e0e.chunk.js"
   },
   {
-    "revision": "5b6e2fb222ceef6c3fb6",
-    "url": "/showroom-talks/static/js/runtime-main.1391926d.js"
+    "revision": "b562964f2c2122235424",
+    "url": "/showroom-talks/static/js/runtime-main.8944b5c5.js"
   },
   {
     "revision": "050bacc0d298cdf873d031637018502b",
     "url": "/showroom-talks/static/media/404.050bacc0.gif"
+  },
+  {
+    "revision": "0b45e34085c262a3399ae504d2b9c303",
+    "url": "/showroom-talks/static/media/bmw-550i-f10.0b45e340.jpg"
   },
   {
     "revision": "1931427c23716bb4ff98d03627f7137c",

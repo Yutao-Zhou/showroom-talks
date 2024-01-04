@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/showroom-talks/static/css/main.2d3d4499.chunk.css",
-    "main.js": "/showroom-talks/static/js/main.ccaa8ee7.chunk.js",
-    "main.js.map": "/showroom-talks/static/js/main.ccaa8ee7.chunk.js.map",
-    "runtime-main.js": "/showroom-talks/static/js/runtime-main.1391926d.js",
-    "runtime-main.js.map": "/showroom-talks/static/js/runtime-main.1391926d.js.map",
+    "main.css": "/showroom-talks/static/css/main.502741bc.chunk.css",
+    "main.js": "/showroom-talks/static/js/main.43812e0e.chunk.js",
+    "main.js.map": "/showroom-talks/static/js/main.43812e0e.chunk.js.map",
+    "runtime-main.js": "/showroom-talks/static/js/runtime-main.8944b5c5.js",
+    "runtime-main.js.map": "/showroom-talks/static/js/runtime-main.8944b5c5.js.map",
     "static/css/2.3f4f504a.chunk.css": "/showroom-talks/static/css/2.3f4f504a.chunk.css",
-    "static/js/2.07c085ca.chunk.js": "/showroom-talks/static/js/2.07c085ca.chunk.js",
-    "static/js/2.07c085ca.chunk.js.map": "/showroom-talks/static/js/2.07c085ca.chunk.js.map",
-    "static/js/3.a5fd22f5.chunk.js": "/showroom-talks/static/js/3.a5fd22f5.chunk.js",
-    "static/js/3.a5fd22f5.chunk.js.map": "/showroom-talks/static/js/3.a5fd22f5.chunk.js.map",
+    "static/js/2.6aede975.chunk.js": "/showroom-talks/static/js/2.6aede975.chunk.js",
+    "static/js/2.6aede975.chunk.js.map": "/showroom-talks/static/js/2.6aede975.chunk.js.map",
+    "static/js/3.3a5846f4.chunk.js": "/showroom-talks/static/js/3.3a5846f4.chunk.js",
+    "static/js/3.3a5846f4.chunk.js.map": "/showroom-talks/static/js/3.3a5846f4.chunk.js.map",
     "index.html": "/showroom-talks/index.html",
-    "precache-manifest.2d2489113c0532f3dfa12382df006ba7.js": "/showroom-talks/precache-manifest.2d2489113c0532f3dfa12382df006ba7.js",
+    "precache-manifest.b4414da0e1d204cf45cbce2052c0a28e.js": "/showroom-talks/precache-manifest.b4414da0e1d204cf45cbce2052c0a28e.js",
     "service-worker.js": "/showroom-talks/service-worker.js",
     "static/css/2.3f4f504a.chunk.css.map": "/showroom-talks/static/css/2.3f4f504a.chunk.css.map",
-    "static/css/main.2d3d4499.chunk.css.map": "/showroom-talks/static/css/main.2d3d4499.chunk.css.map",
-    "static/js/2.07c085ca.chunk.js.LICENSE.txt": "/showroom-talks/static/js/2.07c085ca.chunk.js.LICENSE.txt",
+    "static/css/main.502741bc.chunk.css.map": "/showroom-talks/static/css/main.502741bc.chunk.css.map",
+    "static/js/2.6aede975.chunk.js.LICENSE.txt": "/showroom-talks/static/js/2.6aede975.chunk.js.LICENSE.txt",
     "static/media/404.gif": "/showroom-talks/static/media/404.050bacc0.gif",
+    "static/media/bmw-550i-f10.jpg": "/showroom-talks/static/media/bmw-550i-f10.0b45e340.jpg",
     "static/media/all.css": "/showroom-talks/static/media/fa-v4compatibility.c9e50cca.woff2",
     "static/media/tesla-model3.jpg": "/showroom-talks/static/media/tesla-model3.65cad5f7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1391926d.js",
+    "static/js/runtime-main.8944b5c5.js",
     "static/css/2.3f4f504a.chunk.css",
-    "static/js/2.07c085ca.chunk.js",
-    "static/css/main.2d3d4499.chunk.css",
-    "static/js/main.ccaa8ee7.chunk.js"
+    "static/js/2.6aede975.chunk.js",
+    "static/css/main.502741bc.chunk.css",
+    "static/js/main.43812e0e.chunk.js"
   ]
 }
