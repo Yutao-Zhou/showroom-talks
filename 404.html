@@ -1,22 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>ShowroomTalk</title>
-    <script type="text/javascript">
-        var pathSegmentsToKeep = 1;
-
-        var l = window.location;
-        l.replace(
-            l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-            l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
-            l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-            (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-            l.hash
-        );
-
-    </script>
-</head>
-<body>
-</body>
-</html>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Showroom Talks — Redirecting</title><script>
+(function(){
+  var base='/showroom-talks/';
+  var pathname=window.location.pathname;
+  if(pathname.indexOf(base)!==0)return;
+  var route=pathname.slice(base.length).replace(/\/$/,'');
+  var destination=route==='post/1'?'drive/tesla-model-3':route==='post/2'?'drive/bmw-550i-f10':route==='about'?'about':'garage';
+  window.location.replace(base+'#'+destination);
+})();
+</script></head><body><p>Taking you to the driving journal. <a href="/showroom-talks/">Continue to Showroom Talks</a>.</p></body></html>
