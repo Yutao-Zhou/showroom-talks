@@ -1,7 +1,7 @@
 {
   "name": "showroom-talks",
   "version": "0.1.0",
-  "homepage": "https://yutao-zhou.github.io/showroom-talks",
+  "homepage": "https://yutaozhou.com/showroom-talks/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.1",
@@ -18,8 +18,10 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build",
+    "start": "node scripts/serve-site.cjs",
+    "build": "node scripts/build-site.cjs",
+    "start:legacy": "react-scripts --openssl-legacy-provider start",
+    "build:legacy": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
