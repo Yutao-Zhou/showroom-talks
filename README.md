@@ -2,7 +2,9 @@
 
 Yutao Zhou’s personal driving journal, published at https://yutaozhou.com/showroom-talks/.
 
-The current site is a responsive static website in `site/`. It preserves the two original reviews and photos, with a vehicle index, powertrain filters, search, browser-local bookmarks, and dedicated reading pages.
+The current site is a responsive static website in `site/`. It preserves the two original reviews and photos, with a vehicle index, powertrain filters, search, browser-local bookmarks, and dedicated reading pages. English and Simplified Chinese are available throughout, including both full reviews. The header also provides light and dark themes.
+
+Language initially follows the browser and theme follows the operating system. Manual choices are remembered in localStorage under `showroom-language` and `showroom-theme`. The theme is applied before styles load to avoid a bright flash. The site still works for the current visit when browser storage is unavailable.
 
 ## Run locally
 
@@ -25,6 +27,8 @@ This copies `site/` into `build/`. GitHub Pages serves the root of the `gh-pages
 ## Content
 
 - Full reviews: `site/reviews.json`
+- Chinese review translations: `site/reviews.zh.json`
+- Interface translations and preference controls: `site/i18n.js`
 - Card metadata, article headings, vehicle index, and interaction logic: `site/app.js`
 - Layout and styles: `site/index.html` and `site/styles.css`
 - Photos, self-hosted fonts, and font licenses: `site/assets/`
